@@ -58,6 +58,7 @@ public class Collatz {
 			}
 		// Prints the result in case the conjecture is true for numbers 1 to seed.
 		if (timesReachedOne == boundary) {
+			System.out.println(" ");
 			System.out.println("Every one of the first " + boundary + " hailstone sequences reached 1.");
 		}
 		}

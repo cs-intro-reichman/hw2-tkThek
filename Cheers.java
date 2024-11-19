@@ -20,7 +20,7 @@ public class Cheers {
                     aAn = " an ";
                     break;
                  } else {
-                    aAn = " a ";
+                    aAn = " a  ";
                  }
             }
             System.out.println("Give me" + aAn + string.charAt(i) + ": " + string.charAt(i) + "!");
